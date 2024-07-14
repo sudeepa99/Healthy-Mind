@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import './App.css';
+import TypesofDepression from './pages/TypesofDepression';
+import HandlingDepression from './pages/HandlingDepression';
+import Homepage from './pages/Homepage';
+import TreatmentMethods from './pages/TreatmentMethods';
+import SignsandSymptoms from './pages/SignsandSymptoms';
+import CausesofDepression from './pages/CausesofDepression';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Homepage/>}></Route>
+        <Route path='/types' element={<TypesofDepression/>}></Route>
+        <Route path='/handling' element={<HandlingDepression/>}></Route>
+        <Route path='/treatment' element={<TreatmentMethods/>}></Route>
+        <Route path='/signs' element={<SignsandSymptoms/>}></Route>
+        <Route path='causes' element={<CausesofDepression/>}></Route>
+      </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
