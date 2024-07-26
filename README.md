@@ -1,2 +1,3 @@
-# Healthy-Mind
-Healthy mind is a mental health awareness website that guide users to maintain good mental health
+<p align=center>
+   <img src="https://github.com/sudeepa99/Event-Management-System/blob/main/frontend/event_management_system/src/Assets/Logo/event%20ease%20logo.png"
+</p> 
