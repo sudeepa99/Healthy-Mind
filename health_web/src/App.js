@@ -17,7 +17,7 @@ function App() {
         <Route path='/handling' element={<HandlingDepression/>}></Route>
         <Route path='/treatment' element={<TreatmentMethods/>}></Route>
         <Route path='/signs' element={<SignsandSymptoms/>}></Route>
-        <Route path='causes' element={<CausesofDepression/>}></Route>
+        <Route path='/causes' element={<CausesofDepression/>}></Route>
       </Routes>
       </BrowserRouter>
 
