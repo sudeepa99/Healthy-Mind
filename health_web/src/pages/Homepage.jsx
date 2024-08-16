@@ -6,7 +6,7 @@ import BodyPart from '../components/BodyPart'
 
 export default function Homepage() {
   return (
-    <div>
+    <div className='w-screen h-screen bg-Background-blue'>
       <Navigation/>
       <BodyPart/>
     </div>
