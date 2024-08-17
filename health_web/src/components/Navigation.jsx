@@ -19,8 +19,8 @@ export default function Navigation() {
               <NavDropdown.Item href="#major" className='text-black'>Major depression</NavDropdown.Item>
               <NavDropdown.Item href="#persistent" className='text-black'>Persistent depression</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="signs" href="#signs" className='text-cyan-50'>Signs and symptoms</Nav.Link>
-            <Nav.Link as={Link} to="causes" href="#causes" className='text-cyan-50'>Causes of depression</Nav.Link>
+            <Nav.Link as={Link} to="signs" className='text-cyan-50'>Signs and symptoms</Nav.Link>
+            <Nav.Link as={Link} to="causes"  className='text-cyan-50'>Causes of depression</Nav.Link>
             <Nav.Link as={Link} to="treatment" className='text-cyan-50'>Treatment methods</Nav.Link>
             <Nav.Link as={Link} to="handling" className='text-cyan-50'>Handling depression</Nav.Link>
           </Nav>
