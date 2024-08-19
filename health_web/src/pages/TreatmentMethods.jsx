@@ -18,9 +18,9 @@ export default function TreatmentMethods() {
         <h1 className='text-5xl text-center'>Treating depression</h1>
         <div className='grid grid-cols-3 gap-20 mx-8 mt-14'>
           {/* First Card */}
-          <div className='items-center justify-center px-3 pt-4 h-96 bg-gradient-to-t from-custom-blue to-Background-blue' >
+          <div className='flex flex-col items-center justify-center px-3 pt-4 rounded-lg h-96 bg-gradient-to-b from-custom-blue to-Background-blue' >
             <img className='items-center justify-center object-cover' src={img_med1} alt='medication'/>
-            <h1 className='mt-4 text-lg text-center'>Medication</h1>
+            <h1 className='mt-4 text-xl text-center'>Medication</h1>
             <ol className='mt-2 leading-6'>
               {medi_list.map((medi,index)=>( 
                 <li key={index}>{medi}</li>
@@ -29,19 +29,19 @@ export default function TreatmentMethods() {
           </div >
 
           {/* Second Card */}
-          <div className='flex flex-col items-center justify-center gap-8 px-3 text-center  h-96 bg-gradient-to-t from-custom-blue to-Background-blue'>
+          <div className='flex flex-col items-center justify-center px-3 text-center rounded-lg h-96 bg-gradient-to-t from-custom-blue to-Background-blue'>
             <img className='items-center justify-center object-cover'  src={img_med2} alt='psycotherapy' />
-            <h1 className='mt-4 text-lg text-center'>Psycotherapy</h1>
-            <p className='mt-2 leading-6'>
+            <h1 className='mt-2 text-xl text-center'>Psycotherapy</h1>
+            <p className='mt-2 leading-6 text-justify'>
             Psychotherapy is teaching new ways of thinking and behaving. It aims at changing habits that may cause depression. 
             </p>
           </div>
 
           {/* third card */}
-          <div className='items-center justify-center gap-8 px-3 pt-5 text-center justify-items-center h-96 bg-gradient-to-t from-custom-blue to-Background-blue'>
-            <img className='items-center justify-center object-cover'   src={img_med3} alt='Brain stimulation therapy'/>
-            <h1 className='mt-4 text-lg text-center'>Brain stimulation therapy</h1>
-            <p className='mt-3 leading-8 justify-items-end'>
+          <div className='flex flex-col items-center justify-center px-3 pt-5 text-center rounded-lg justify-items-center h-96 bg-gradient-to-b from-custom-blue to-Background-blue'>
+            <img className='items-center justify-center object-cover '   src={img_med3} alt='Brain stimulation therapy'/>
+            <h1 className='mt-4 text-xl text-center'>Brain stimulation therapy</h1>
+            <p className='mt-3 leading-6 text-justify'>
             Brain stimulation therapies involve activating or inhibiting the brain directly with electricity. The electricity can be given directly by electrodes implanted in the brain, or noninvasively through electrodes placed on the scalp.
             </p>
           </div>
