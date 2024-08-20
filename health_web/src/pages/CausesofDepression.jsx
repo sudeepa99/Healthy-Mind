@@ -14,7 +14,7 @@ export default function CausesofDepression() {
         <div className="flex items-center justify-center ">
           <img src={causimg}/>
         </div>
-        <div className='pl-8 mx-10 text-lg leading-8 tracking-wide tablet:flex tablet:text-left tablet:items-center phone:ml-0 tablet:ml-0 laptop:leading-10 laptop:text-xl laptop:tracking-wide '>
+        <div className='pl-8 mx-10 text-lg leading-8 tracking-wide tablet:flex tablet:text-left phone:justify-center tablet:items-center phone:ml-0 phone:items-center tablet:ml-0 laptop:leading-10 laptop:text-xl laptop:tracking-wide '>
           <ol style={{listStyle:"upper-roman"}}>
           {causes_list.map((cause,index)=>(
               <li key={index}>{cause}</li>
