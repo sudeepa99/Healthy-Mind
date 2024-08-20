@@ -12,11 +12,11 @@ export default function TreatmentMethods() {
   "Patients taking medication should be monitored closely."
 ];
   return (
-    <div className='w-screen h-screen text-white bg-Background-blue'>
+    <div className='w-screen h-screen text-white bg-Background-blue laptop:h-screen tablet:h-screen'>
       <Navigation/>
-      <div className='mt-14'>
-        <h1 className='text-5xl text-center'>Treating depression</h1>
-        <div className='grid grid-cols-3 gap-20 mx-8 mt-14'>
+      <div className='pb-16 mt-14 tablet:pb-16 bg-Background-blue'>
+        <h1 className='text-2xl text-center laptop:text-5xl tablet:text-4xl'>Treating depression</h1>
+        <div className='grid grid-cols-1 gap-20 px-10 mx-8 mt-14 laptop:grid-cols-3 laptop:px-0 tablet:grid-cols-2 tablet:px-0'>
           {/* First Card */}
           <div className='flex flex-col items-center justify-center px-3 pt-4 rounded-lg h-96 bg-gradient-to-b from-custom-blue to-Background-blue' >
             <img className='items-center justify-center object-cover' src={img_med1} alt='medication'/>
