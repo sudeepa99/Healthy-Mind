@@ -14,8 +14,8 @@ export default function BodyPart() {
             <h2 className='tracking-wider text-8xl '>{heading2}</h2>
             <p className='mt-6 text-xl leading-8 tracking-wider text-justify letter '>Depression or ‘depressive disorder’ is a<br></br> mood disorder that causes distressing<br></br> symptoms that affect how you feel, think<br></br> and handle your daily activities.</p>
         </div>
-        <div className='relative flex items-center justify-center before:absolute left-72 before:h-[400px] before:w-[400px] before:bg-gradient-to-t from-custom-blue via-white to-Background-blue  before:rounded-tl-3xl before:rounded-tr-2xl before:rounded-bl-3xl before:rounded-xl  '>
-            <img className='z-10 w-80 h-80' src={bodyimg}></img>
+        <div className='relative flex items-center justify-center before:absolute left-72 before:h-[400px] before:w-[400px] before:bg-gradient-to-t from-custom-blue via-white to-Background-blue  before:rounded-tl-3xl   before:rounded-tr-2xl before:rounded-bl-3xl before:rounded-xl  '>
+            <img className='z-10 w-80 h-80 animate-pulse' src={bodyimg} alt='bodyimage'></img>
         </div>
     </div>
   )
