@@ -16,11 +16,11 @@ export default function TypesofDepression() {
             
           </div>
 
-          <div>
-            <p>02</p>
-            <div>
-              <p>Persistent depression</p>
-              <p>A type of depression where symptoms occur for at least two years.</p>
+          <div className='flex flex-row gap-16 pt-14 px-96'>
+            <p className='pt-0 text-opacity-55 text-8xl'>02</p>
+            <div className='flex flex-col justify-start text-left align-top'>
+              <p className='pt-2 text-2xl tracking-wider text-left'>Persistent depression</p>
+              <p className='text-xl leading-7 tracking-wide'>A type of depression where symptoms occur for at least two years.</p>
             </div>
 
           </div>
