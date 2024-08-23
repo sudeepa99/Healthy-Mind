@@ -8,13 +8,12 @@ export default function Navigation() {
     <div className='flex-row gap-16 bg-custom-blue'  >
         <Navbar>
         <Container >
-          <Nav >
-            <Nav.Link as={Link} to="/" className='text-cyan-50'>What is Depression</Nav.Link>
-            <Nav.Link as={Link} to="/types" className='text-cyan-50'>Types of Depression</Nav.Link>
-            <Nav.Link as={Link} to="/signs" className='text-cyan-50'>Signs and symptoms</Nav.Link>
-            <Nav.Link as={Link} to="/causes"  className='text-cyan-50'>Causes of depression</Nav.Link>
-            <Nav.Link as={Link} to="/treatment" className='text-cyan-50'>Treatment methods</Nav.Link>
-            <Nav.Link as={Link} to="/handling" className='text-cyan-50'>Handling depression</Nav.Link>
+          <Nav className='gap-5'>
+            <Nav.Link as={Link} to="/types" className='text-cyan-50 hover:text-green-500 hover:text-lg'>Types of Depression</Nav.Link>
+            <Nav.Link as={Link} to="/signs" className='text-cyan-50 hover:text-green-500 hover:text-lg'>Signs and symptoms</Nav.Link>
+            <Nav.Link as={Link} to="/causes"  className='text-cyan-50 hover:text-green-500 hover:text-lg'>Causes of depression</Nav.Link>
+            <Nav.Link as={Link} to="/treatment" className='text-cyan-50 hover:text-green-500 hover:text-lg'>Treatment methods</Nav.Link>
+            <Nav.Link as={Link} to="/handling" className='text-cyan-50 hover:text-green-500 hover:text-lg'>Handling depression</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
